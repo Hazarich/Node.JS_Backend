@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1-4css.css">
+    <title>1-4</title>
+</head>
+<body>
+<button id="scrollToTopBtn" title="Go to top">Top</button>
+<br><div id="cursorXCss">Координаты курсора: X - , Y - </div>
+<br><p id="language" >Language: </p>
+<br><div id="coords"></div>
+<div class="blackBlocks"></div>
+<div class="blackBlocks"></div>
+<div class="blackBlocks"></div>
+<div class="blackBlocks"></div>
+<div class="blackBlocks"></div>
+<button id="button1" onclick="hideButton1()">click for delete</button>
+<button id="button2"  onclick="hideButton2()">remove</button>
+<button id="button3" onclick="hideButton3()">hide</button>
+<button id="button4" onclick="restartBlock()">return</button>
+<button id="button5" onclick="allBlocks()">return/delete all blocks</button>
+<br><label id="label1">
+    <input placeholder="Напиши тут Css селектор" class="input" style="margin-top: 25px">
+    <button onclick="deleteCssSelector()">delete input</button>
+</label>
+<div id="yellowSquare" onclick="secondClick()"></div>
+<div id="blackSquare"></div>
+
+<br><button id="buttonTouchMe" onmouseover="onMouse()" onmouseout="outMouse()">touch me</button>
+
+
+<br><input placeholder="Впиши URL картинки" id="thirdInput">
+<img src="" alt="Image" id="img1">
+<br><button id="buttonForFirstImg" onclick="uploadImages()" id="">download image</button>
+<br><input placeholder="зелений прямокутник" type="text" id="secondInput" onfocus="showGreenRectangle()" oninput="hideGreenRectangle()">
+<div id="greenRectangle"></div>
+<br><textarea id="firstTextArea"></textarea>
+
+<div id = "image-container"></div>
+<button id="buttonForMany" onclick="textarea()">Download images</button>
+<div class="onloadBlocks" id="block1" contenteditable="true"></div>
+<div class="onloadBlocks" id="block2" contenteditable="true"></div>
+<div class="onloadBlocks" id="block3" contenteditable="true"></div>
+
+<div id="bigBlock">
+    <div id="smallBlock">
+    </div>
+</div>
+<button id="greySquareButton">surprise</button>
+<div id="greySquare"></div>
+<br><form id="myForm">
+    <input type="submit" value="GO">
+</form>
+
+<div id="divDragAndDrop">
+    <label id="drop-Area">
+        <input type="file" id="inputDragAndDrop" hidden>
+        <div id="imgView">
+            <img id="imgDragAndDrop" src="https://www.freeiconspng.com/uploads/downloads-icon-15.png" alt="file">
+        </div>
+
+        <p id="text1">Drop or click here to upload your file</p>
+    </label>
+</div>
+
+<script src="1-4js.js"></script>
+</body>
+</html>

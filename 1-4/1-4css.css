@@ -1,0 +1,329 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.blackBlocks{
+    background-color: #000000;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 10px;
+    position: relative;
+    left: 45%;
+
+}
+#button1{
+    position: relative;
+    left: 15%;
+    background-color: #d0b400;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button2{
+    position: relative;
+    left: 20%;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button3{
+    position: relative;
+    left: 25%;
+    background-color: #034ea4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button4{
+    position: relative;
+    left: 30%;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button5{
+    position: relative;
+    left: 35%;
+    background-color: #9f04aa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#label1{
+    position: relative;
+    left: 40%;
+}
+.firstInput{
+margin: 15px;
+    position: relative;
+    left: 40%;
+
+}
+#buttonTouchMe{
+    position: relative;
+    left: 42%;
+    background-color: #aa044f;
+    border: none;
+    color: white;
+    padding: 32px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 16px 8px;
+    cursor: pointer;
+    height: 40px;
+}
+#yellowSquare{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: block;
+    margin: 20px;
+    cursor: pointer;
+    left: 45%;
+    position: relative;
+}
+#blackSquare{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: block;
+    left: 49%;
+    position: relative;
+
+}
+#greenRectangle{
+    width: 50px;
+    height: 20px;
+    display: none;
+    background-color: green;
+    left: 49%;
+    position: relative;
+}
+#secondInput{
+    margin: 15px;
+    left: 44%;
+    position: relative;
+}
+#img1{
+    margin: 30px;
+    border: black;
+    left: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#thirdInput{
+margin: 15px;
+    left: 43%;
+    position: relative;
+}
+#buttonForFirstImg{
+    position: relative;
+    left: 45%;
+    background-color: #048caa;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#firstTextArea{
+    display: block;
+    margin: 10px;
+    left: 45%;
+    position: relative;
+}
+#buttonForMany{
+    position: relative;
+    left: 45%;
+    background-color: #6760ff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#image-container {
+margin: 15px;
+    border: black;
+    left: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#cursorXCss{
+float: right;
+
+}
+#language{
+float: right;
+
+}
+#coords{
+float: right;
+    right: 5px;
+
+}
+.onloadBlocks{
+    border: 2px solid #000000;
+    margin: 5px;
+    min-height: 5px;
+    left: 39%;
+    position: relative;
+    width: 300px;
+}
+#scrollToTopBtn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#bigBlock {
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
+    position: relative;
+    left: 45%;
+}
+#smallBlock {
+    width: 75px;
+    height: 75px;
+    background-color: darkred;
+    position: absolute;
+    top: 37px;
+    left: 37px;
+}
+#greySquare{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    cursor: not-allowed;
+}
+#greySquareButton{
+    position: relative;
+    left: 47%;
+    background-color: #1e861e;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#myForm {
+    position: relative;
+    left: 48%;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#divDragAndDrop{
+    background-color: plum;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    left: 40%;
+}
+
+#imgView{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #9e00c2;
+    border-radius: 15px;
+    background-color: rgb(176, 161, 221, 0.3);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#drop-Area{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+}
+#imgDragAndDrop{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
